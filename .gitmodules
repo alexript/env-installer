@@ -1,0 +1,3 @@
+[submodule "apps/nushell"]
+	path = apps/nushell
+	url = git@github.com:nushell/nushell.git
