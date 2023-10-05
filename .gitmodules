@@ -4,3 +4,6 @@
 [submodule ".config/nushell"]
 	path = .config/nushell
 	url = git@github.com:alexript/nushell_config.git
+[submodule "apps/v"]
+	path = apps/v
+	url = git@github.com:vlang/v.git

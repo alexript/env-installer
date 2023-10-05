@@ -1,7 +1,9 @@
 @echo off
 set RUSTUP_HOME=%~dp0.rustup
 set CARGO_HOME=%~dp0.cargo
-set PATH=%CARGO_HOME%\bin;%PATH%
+set V_HOME=%~dp0apps\v
+
+set PATH=%CARGO_HOME%\bin;%V_HOME%;%PATH%
 
 git submodule update --init --recursive
 
@@ -11,5 +13,9 @@ cd apps\nushell
 cargo install --path . 
 rem cargo clean
 cd ..\..
+
+cd apps\v
+make.bat
+cd ..
 
 nu --env-config bootstrap\nushell\env.nu --config bootstrap\nushell\config.nu setup.nu
