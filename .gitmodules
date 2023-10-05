@@ -13,3 +13,6 @@
 [submodule "apps/wezterm"]
 	path = apps/wezterm
 	url = git@github.com:wez/wezterm.git
+[submodule ".config/wezterm"]
+	path = .config/wezterm
+	url = git@github.com:alexript/wezterm_config.git
