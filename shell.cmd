@@ -5,6 +5,6 @@ set CARGO_HOME=%_ENVROOT%.cargo
 set V_HOME=%_ENVROOT%apps\v
 set TCC_HOME=%_ENVROOT%tcc
 
-set PATH=%CARGO_HOME%\bin;%TCC_HOME%;%V_HOME%;%PATH%
+set PATH=%CARGO_HOME%\bin;%TCC_HOME%;%V_HOME%;%_ENVROOT%temp\perl\bin;%PATH%
 
 nu --env-config .config\nushell\env.nu --config .config\nushell\config.nu

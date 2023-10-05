@@ -10,3 +10,6 @@
 [submodule "apps/tinycc"]
 	path = apps/tinycc
 	url = git://repo.or.cz/tinycc.git
+[submodule "apps/wezterm"]
+	path = apps/wezterm
+	url = git@github.com:wez/wezterm.git

@@ -2,3 +2,4 @@
 .rustup
 rustup-init.*
 tcc
+temp
